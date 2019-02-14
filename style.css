@@ -1,0 +1,102 @@
+.top{
+    background: url(space\ x.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 0px; 
+    margin-bottom: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    
+   
+}
+
+.medium {
+    border-radius: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: gray;
+    
+    width: 90%;
+    height: 1200px;
+
+}
+a.white:link,a.white:visited{
+    color: white;
+    text-decoration: none;
+}
+a.white:hover,a.white:active
+{
+    color: royalblue;
+}
+.contact {
+    float: right;
+    
+    margin-right: 10px;
+   
+}
+header ul {
+    clear: right;
+    display: flex;
+    margin-top: 0px;
+    flex-direction: row ;
+    justify-content: center;
+    position: relative;
+    top: 145px;
+    
+  
+}
+header li:first-of-type{border-radius: 0px 0px 0px 10px;}
+header li:last-of-type{border-radius: 0px 0px 10px 0px;}
+
+header li
+{
+list-style-type: none;
+border-color:#000;
+border-right: 1px solid;
+border-top: 1px solid;
+text-align: center;
+width: 20%;
+}
+
+
+header li a:link,header li a:visited
+{   color : white;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1em;
+    display:block;
+    height: 25px;
+
+    text-decoration: none;
+}
+header li a:hover,header li a:active
+{
+background-color:#7A991A;
+}
+
+
+
+.bottom { 
+    
+    margin: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: gray;
+    width: 90%;
+    height: 150px;
+   
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+body{
+    background: url(rocket.jpg);
+}
