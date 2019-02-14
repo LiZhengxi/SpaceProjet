@@ -1,5 +1,5 @@
 .top{
-    background: url(space\ x.jpg);
+    background: url(photo/space\ x.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -98,5 +98,5 @@ background-color:rgb(78,0,0);
 }
 
 body{
-    background: url(rocket.jpg);
+    background: url(photo/rocket.jpg);
 }
