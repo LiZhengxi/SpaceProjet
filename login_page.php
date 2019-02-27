@@ -1,3 +1,11 @@
+<?php 
+function get_info(){
+    $email = $_GET['email'];
+    $password=$_GET['pass'];
+}
+
+?>
+
 <!--This is the principal page-->
 <!DOCTYPE html>
 <html>
