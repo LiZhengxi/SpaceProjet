@@ -38,7 +38,7 @@ function get_info(){
 
     <div class="medium">
         <P style="text-align:center; color: white; font-size: 1.5em;">Sign in to Space X</P>
-        <form class="login" action="toto.php" method="post"> 
+        <form class="login" action="login_success.php" method="post"> 
             <label for="email">Email</label>
             <input class="input" name="email" type="text" placeholder="Email">
             <label for="pass" >Password</label>
