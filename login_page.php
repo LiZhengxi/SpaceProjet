@@ -1,7 +1,7 @@
 <?php 
 function get_info(){
     $email = $_GET['email'];
-    $password=$_GET['passjj'];
+    $password=$_GET['pass'];
 }
 
 ?>
