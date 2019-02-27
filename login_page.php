@@ -1,7 +1,8 @@
 <?php 
 function get_info(){
-    $email = $_GET['email'];
-    $password=$_GET['pass'];
+    $email = $_POST['email'];
+    $password=$_POST['pass'];
+   
 }
 
 ?>
@@ -46,6 +47,7 @@ function get_info(){
             <input class="input" name = "pass" type="password" placeholder="Password">
             <input class="loginButton" type="submit" value="Log in">
         </form>
+       
     </div>
 
     <div class="bottom">
