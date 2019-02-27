@@ -22,7 +22,7 @@
         <ul>
             <li><a href="page.html">PAGE</a></li>
             <li><a href="page.html">TOTO</a></li>
-            <li><a href="page.html">TATA</a></li>
+            <li><a href="page.html">TAT</a></li>
             <li><a href="page.html">VAVA</a></li>
             <li><a href="page.html">LOLO</a></li>
         </ul>
