@@ -192,7 +192,7 @@ h1{
 
 video {
     color: transparent;
-    margin-right: 60px;
+    margin-right: 40px;
     float: right;
     border-radius: 20px white;
     margin-bottom:20px; 
@@ -200,28 +200,28 @@ video {
 
 .description 
 {   float: left;
-    box-shadow: 3px 3px 15px #bfbfbf;
-    width: 40%; 
+
+   
     border-radius: 20px;
     border: 1px solid white;
     margin-top:  40px;
     margin-left: 20px;
-    size: 480px 320px;
+    width: 40%; 
     padding: 20px;
-    background-color: rgb(209, 209, 209);
+   /* background-color: rgb(209, 209, 209);*/
 }
-.testNormal {
+.textNormal {
     text-align: center;
-    color: rgb(7, 1, 1);
+    color: white;
     text-transform: uppercase;
     font-size: 1em;
 }
 .description:hover {
-    background: white;
+    box-shadow: 3px 3px 15px #bfbfbf;
 }
 .presentation {
     clear: both;;
-    box-shadow: 3px 3px 15px #bfbfbf;
+ 
     width: 90%; 
     border-radius: 20px;
     border: 1px solid white;
@@ -232,10 +232,14 @@ video {
     margin-right: 20px; 
    
     padding: 20px;
-    background-color: rgb(209, 209, 209);
+    /*background-color: rgb(209, 209, 209);*/
 }
-.product {
+.presentation:hover {
     box-shadow: 3px 3px 15px #bfbfbf;
+}
+
+.product {
+    
     width: 90%; 
     border-radius: 20px;
     border: 1px solid white;
@@ -246,12 +250,15 @@ video {
     margin-right: 20px; 
    
     padding: 20px;
-    background-color: rgb(209, 209, 209);
+   /* background-color: rgb(209, 209, 209);*/
+}
+.product:hover {
+    box-shadow: 3px 3px 15px #bfbfbf;
 }
 
 .selled
 { 
-    box-shadow: 3px 3px 15px #bfbfbf;
+  
     width: 90%; 
     border-radius: 20px;
     border: 1px solid white;
@@ -262,12 +269,14 @@ video {
     margin-right: 20px; 
    
     padding: 20px;
-    background-color: rgb(209, 209, 209);
+    /*background-color: rgb(209, 209, 209);*/
 }
-
+.selled:hover {
+    box-shadow: 3px 3px 15px #bfbfbf;
+}
 .information 
 {
-    box-shadow: 3px 3px 15px #bfbfbf;
+ 
     width: 90%; 
     border-radius: 20px;
     border: 1px solid white;
@@ -278,5 +287,8 @@ video {
     margin-right: 20px; 
    
     padding: 20px;
-    background-color: rgb(209, 209, 209);
+    /*background-color: rgb(209, 209, 209);*/
+}
+.information:hover {
+    box-shadow: 3px 3px 15px #bfbfbf;
 }
