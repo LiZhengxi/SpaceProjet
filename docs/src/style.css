@@ -118,7 +118,7 @@ background-color:rgb(78,0,0);
 /* Text title, text normal and button style definition */
 .text {
     text-align: center;
-    color: aliceblue;
+    color: white;
     text-transform: uppercase;
     font-size: 1em;
 }
@@ -175,18 +175,13 @@ body{
     border-radius: 20px;
     margin-left:auto;
     margin-right:auto;
-    background-color: black; 
-
     width: 90%;
     height: 1800px;
+    background: rgba(0, 0, 0, 0.301);
+    
+
 }
 
-.video { 
-  
-    margin:  auto;
-    width: 640px;
-    height: 320px;
-}
 
 h1{
     text-align: center;
@@ -195,10 +190,93 @@ h1{
     font-size: 1.5em;
 }
 
+video {
+    color: transparent;
+    margin-right: 20px;
+    float: right;
+    border-radius: 20px white;
+    margin-bottom:20px; 
+}
+
 .description 
-{   background: gray;
-    opacity: 0.8;
-    width: 70%; margin:30px auto; 
+{   float: left;
+    box-shadow: 3px 3px 15px #bfbfbf;
+    width: 40%; 
     border-radius: 20px;
+    border: 1px solid white;
+    margin-top:  40px;
+    margin-left: 20px;
+    size: 480px 320px;
     padding: 20px;
+    background-color: rgb(209, 209, 209);
+}
+.testNormal {
+    text-align: center;
+    color: rgb(7, 1, 1);
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.description:hover {
+    background: white;
+}
+.presentation {
+    clear: both;;
+    box-shadow: 3px 3px 15px #bfbfbf;
+    width: 90%; 
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 80px;
+ 
+    margin-top:  80px;
+    margin-left: 20px;
+    margin-right: 20px; 
+   
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+}
+.product {
+    box-shadow: 3px 3px 15px #bfbfbf;
+    width: 90%; 
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 600px;
+ 
+    margin-top:  40px;
+    margin-left: 20px;
+    margin-right: 20px; 
+   
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+}
+
+.selled
+{ 
+    box-shadow: 3px 3px 15px #bfbfbf;
+    width: 90%; 
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 300px;
+ 
+    margin-top:  40px;
+    margin-left: 20px;
+    margin-right: 20px; 
+   
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+}
+
+.information 
+{
+    box-shadow: 3px 3px 15px #bfbfbf;
+    width: 90%; 
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 100px;
+ 
+    margin-top:  40px;
+    margin-left: 20px;
+    margin-right: 20px; 
+   
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
 }
