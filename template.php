@@ -6,7 +6,7 @@
 <meta charset="UTF-8">	
 <title> planet site	</title>
 <meta name="planet site" content="This is the first page of the planet site"> 
-<link rel="stylesheet" type="text/css" href = "src/styleLogin.css">
+<link rel="stylesheet" type="text/css" href = "src/styleTemplate.css">
 </head>
 
 <body>
@@ -30,15 +30,7 @@
     </header>
 
     <div class="medium">
-        <P style="text-align:center; color: white; font-size: 1.5em;">Sign in to Space X</P>
-        <form class="login" action="login_success.php" method="post"> 
-            <label for="email">Email</label>
-            <input class="input" name="email" type="text" placeholder="Email">
-            <label for="pass" >Password</label>
-            <p style="float: right; margin: 5px 20px; font-size: 11px;"><a href="sign up">Forget password?</a></p>
-            <input class="input" name = "pass" type="password" placeholder="Password">
-            <input class="loginButton" type="submit" value="Log in">
-        </form>
+       
        
     </div>
 

@@ -189,54 +189,7 @@ body{
     border-radius: 20px;
     margin-left:auto;
     margin-right:auto;
-    /*background-color: gray;*/
+    background-color: gray;
     width: 90%;
     height: 800px;
 }
-/* Define the login part here */
-.login {
-    background: #212121; 
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px; 
-    height: 200px;
-    width: 30%;
-    box-shadow: 20px rgb(78,0,0);
-}
-/* Define the text in the login windows */
-.login label 
-{
-    padding:10px 10px 5px 15px;
-    font-size: 11px; 
-    color: #777;
-    text-transform: uppercase;
-}
-
-/* Define the input windows style*/
-.login .input {
-    display: block;
-    margin: 5px 10px 10px 10px;
-    width: 85%;
-    background: #111;
-    box-shadow: 0px 0px 4px #000 inset;
-    outline: 1px solid #333;
-    border: 1px solid #000;
-    padding: 5px;
-    color: #ffffff;
-    font-size: 16px;
-    text-transform: lowercase;
-    
-}
-/* Define the login button style */
-.login .loginButton {
-    float: right;
-    margin-right: 25px;
-    margin-top: 15px;
-    background-color: #0184ff;
-    height: 30px;
-    width: 30%;
-    color: white;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-}
-
