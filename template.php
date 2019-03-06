@@ -1,10 +1,3 @@
-<?php 
-function get_info(){
-    $email = $_GET['email'];
-    $password=$_GET['pass'];
-}
-
-?>
 
 <!--This is the principal page-->
 <!DOCTYPE html>
@@ -13,7 +6,7 @@ function get_info(){
 <meta charset="UTF-8">	
 <title> planet site	</title>
 <meta name="planet site" content="This is the first page of the planet site"> 
-<link rel="stylesheet" type="text/css" href = "src/styleLogin.css">
+<link rel="stylesheet" type="text/css" href = "src/styleTemplate.css">
 </head>
 
 <body>
@@ -22,13 +15,13 @@ function get_info(){
         
         <p>
             <a  href="contact.html" class="white">Contact</a>
-        
-            <a href="SignIn.html" class="white"> Sign in</a>
             |
-            <a href="SignUp.html" class="white"> Sign up</a>
+            <a href="login_page.php" class="white"> Sign in</a>
+            |
+            <a href="inscription.php" class="white"> Sign up</a>
         </p>
         <ul>
-            <li><a href="page.html">PAGE</a></li>
+            <li><a href="login_page.php">PAGE</a></li>
             <li><a href="page.html">TOTO</a></li>
             <li><a href="page.html">TATA</a></li>
             <li><a href="page.html">VAVA</a></li>
@@ -36,20 +29,23 @@ function get_info(){
         </ul>
     </header>
 
+    <div class="medium">
     <div class="container">
        
-        <div class="row">
-            <div class="col-lg-4">4 colonnes</div>
-            <div class="col-lg-8">8 colonnes</div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">4 colonnes</div>
-            <div class="col-lg-8">8 colonnes</div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">4 colonnes</div>
-            <div class="col-lg-8">8 colonnes</div>
-        </div>
+       <div class="row">
+           <div class="col-lg-4">4 colonnes</div>
+           <div class="col-lg-8">8 colonnes</div>
+       </div>
+       <div class="row">
+           <div class="col-lg-4">4 colonnes</div>
+           <div class="col-lg-8">8 colonnes</div>
+       </div>
+       <div class="row">
+           <div class="col-lg-4">4 colonnes</div>
+           <div class="col-lg-8">8 colonnes</div>
+       </div>
+   </div>
+       
     </div>
 
     <div class="bottom">
@@ -59,17 +55,18 @@ function get_info(){
                 <br>
                 <br>
                
-                <p class="text"><a class = "button" href="abonner.html"> S'abonner</a></p>
+                  <!--<p class="text">
+                  <a class = "button" href="abonner.html"> S'abonner</a></p> -->
                
-                <!--
-                <form class="text">
+                
+                <form class="text" action="abondant.php" method="post">
                     <label for="user">Adresse mail:</label> 
-                    <br>
-                    <input type="email" style="height:20px;">
+                   
+                    <input type="email" name="abondant" style="height:20px; margin-top:10px;">
                     <br><br>
-                    <input type="submit" value="s'abonner">
+                    <input class="buttonA" type="submit" value="s'abonner">
                 </form>
-                -->
+                
             </li>
 
             <li>
@@ -86,23 +83,23 @@ function get_info(){
     </div>
 
     <div class="foot">
-        <a class="icon" href="www.facebook.com">
+        <a class="icon" href="https://www.facebook.com/" target = "_blank">
             <img src="src/photo/facebook.png" width="50px" height="50px">
         </a>
 
-        <a class="icon" href="www.facebook.com">
+        <a class="icon" href="https://fr.linkedin.com/" target = "_blank">
                 <img src="src/photo/lindink.png" width="50px" height="50px">
         </a>
 
-        <a class="icon" href="www.facebook.com">
+        <a class="icon" href="https://www.instagram.com/?hl=fr" target = "_blank">
                 <img src="src/photo/instragram.png" width="50px" height="50px">
         </a>
 
-        <a class="icon" href="www.facebook.com">
+        <a class="icon" href="https://twitter.com/?lang=fr" target = "_blank">
                     <img src="src/photo/twiter.png" width="50px" height="50px">
         </a>
 
-        <a class="icon" href="www.facebook.com">
+        <a class="icon" href="https://www.youtube.com/?gl=FR&hl=fr" target = "_blank">
                 <img src="src/photo/youtube.png" width="50px" height="50px">
         </a>
 
