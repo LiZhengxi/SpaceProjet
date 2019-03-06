@@ -13,6 +13,17 @@
   
 }
 
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-lg-4 {
+    color: aquamarine
+}
+
 .medium {
     border-radius: 20px;
     margin-left:auto;

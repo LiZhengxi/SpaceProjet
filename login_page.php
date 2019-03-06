@@ -36,17 +36,20 @@ function get_info(){
         </ul>
     </header>
 
-    <div class="medium">
-        <P style="text-align:center; color: white; font-size: 1.5em;">Sign in to Space X</P>
-        <form class="login" action="toto.php" method="post"> 
-            <label for="email">Email</label>
-            <input class="input" name="email" type="text" placeholder="Email">
-            <label for="pass" >Password</label>
-            <p style="float: right; margin: 5px 20px; font-size: 11px;"><a href="sign up">Forget password?</a></p>
-            <input class="input" name = "pass" type="password" placeholder="Password">
-            <input class="loginButton" type="submit" value="Log in">
-        </form>
+    <div class="container">
        
+        <div class="row">
+            <div class="col-lg-4">4 colonnes</div>
+            <div class="col-lg-8">8 colonnes</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">4 colonnes</div>
+            <div class="col-lg-8">8 colonnes</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">4 colonnes</div>
+            <div class="col-lg-8">8 colonnes</div>
+        </div>
     </div>
 
     <div class="bottom">
