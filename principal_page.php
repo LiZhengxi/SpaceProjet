@@ -66,23 +66,23 @@
     </div>
 
     <div class="foot">
-        <a class="photo" href="www.facebook.com">
+        <a class="icon" href="www.facebook.com">
             <img src="src/photo/facebook.png" width="50px" height="50px">
         </a>
 
-        <a class="photo" href="www.facebook.com">
+        <a class="icon" href="www.facebook.com">
                 <img src="src/photo/lindink.png" width="50px" height="50px">
         </a>
 
-        <a class="photo" href="www.facebook.com">
+        <a class="icon" href="www.facebook.com">
                 <img src="src/photo/instragram.png" width="50px" height="50px">
         </a>
 
-        <a class="photo" href="www.facebook.com">
+        <a class="icon" href="www.facebook.com">
                     <img src="src/photo/twiter.png" width="50px" height="50px">
         </a>
 
-        <a class="photo" href="www.facebook.com">
+        <a class="icon" href="www.facebook.com">
                 <img src="src/photo/youtube.png" width="50px" height="50px">
         </a>
 
