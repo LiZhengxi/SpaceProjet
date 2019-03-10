@@ -176,7 +176,7 @@ body{
     margin-left:auto;
     margin-right:auto;
     width: 90%;
-    height: 1850px;
+    height: 1750px;
     background: rgba(0, 0, 0, 0.301);
     
 
@@ -243,7 +243,7 @@ video {
     width: 90%; 
     border-radius: 20px;
     border: 1px solid white;
-    height: 500px;
+    height: 450px;
  
     margin-top:  40px;
     margin-left: 20px;
@@ -258,7 +258,7 @@ video {
 
 .title {
     font-size: 1.5em;
-    color: Black;
+    color: white;
     text-align: center;
 }
 .proRow {
@@ -326,7 +326,7 @@ h5 {
     width: 90%; 
     border-radius: 20px;
     border: 1px solid white;
-    height: 450px;
+    height: 400px;
  
     margin-top:  40px;
     margin-left: 20px;
