@@ -265,13 +265,15 @@ video {
     display:flex;
     flex-direction: row;
     justify-content: center;
+  
 
 }
 
 .proBig {
 	width:235px;
 	margin:15px 15px;
-	position:relative;
+    position:relative;
+   
 }
 .pro {
 	border:1px solid #ccc;

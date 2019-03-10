@@ -20,17 +20,160 @@
             <a href="SignUp.html" class="white"> Sign up</a>
         </p>
         <ul>
-            <li><a href="page.html">PAGE</a></li>
-            <li><a href="page.html">TOTO</a></li>
-            <li><a href="page.html">TATA</a></li>
-            <li><a href="page.html">VAVA</a></li>
-            <li><a href="page.html">LOLO</a></li>
+            <li><a href="index.html">Page</a></li>
+            <li><a href="buy.html">Achètez vos planètes</a></li>
+            <li><a href="selled.html">Planète vendue</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Qui somme nous?</a></li>
         </ul>
     </header>
 
-    <div class="medium">
-
+<div class="medium">
+    <br>
+    <h1>What are you waiting for?</h1>
+    
+    <div class="description">
+        <p class="textNormal">A galaxy is a gravitationally bound 
+            system of stars, stellar remnants, 
+            interstellar gas, dust, and dark matter.
+            [1][2] The word galaxy is derived from 
+            the Greek galaxias (γαλαξίας), literally 
+            "milky", a reference to the Milky Way. 
+            Galaxies range in size from dwarfs with 
+            just a few hundred million (108) stars to 
+            giants with one hundred trillion (1014) 
+            stars,[3] each orbiting its galaxy's 
+            center of mass. </p>
     </div>
+  
+        <video  width="480" height="320" controls >
+            <source src="src/test.mp4" type="video/mp4" >          
+            </video>
+    <br>
+    <div class="presentation">
+        <p class="title">Presentation</p>
+    </div>
+    <div class="product">
+        <p class="title">Nos selections</p>
+        <br>
+
+        <div class="proRow">
+        <div class="proBig">
+            <div class="pro">
+                <div class="proImg"><a href="https://fr.linkedin.com/>"><img src="src/photo/mars.jpg"></a></div>
+              <div class="proText">
+                <h5>Mars</h5>
+                <p class="proSize">Dimension: Big</p>
+                <p class="proPrice">EURO €<span>859.00</span></p>
+                <a href="https://fr.linkedin.com/"> Buy it now</a>
+              </div>
+              <div class="proFrom">Galaxie: Solar System </div>
+            </div>
+    </div>
+    <div class="proBig">
+        <div class="pro">
+            <div class="proImg"><a href="https://fr.linkedin.com/>"><img src="src/photo/mars.jpg"></a></div>
+          <div class="proText">
+            <h5>Mars</h5>
+            <p class="proSize">Dimension: Big</p>
+            <p class="proPrice">EURO €<span>859.00</span></p>
+            <a href="https://fr.linkedin.com/"> Buy it now</a>
+          </div>
+          <div class="proFrom">Galaxie: Solar System </div>
+        </div>
+</div>
+
+<div class="proBig">
+    <div class="pro">
+        <div class="proImg"><a href="https://fr.linkedin.com/>"><img src="src/photo/mars.jpg"></a></div>
+      <div class="proText">
+        <h5>Mars</h5>
+        <p class="proSize">Dimension: Big</p>
+        <p class="proPrice">EURO €<span>859.00</span></p>
+        <a href="https://fr.linkedin.com/"> Buy it now</a>
+      </div>
+      <div class="proFrom">Galaxie: Solar System </div>
+    </div>
+</div>
+
+<div class="proBig">
+    <div class="pro">
+      <div class="proImg"><a href="https://fr.linkedin.com/>"><img src="src/photo/mars.jpg"></a></div>
+      <div class="proText">
+        <h5>Mars</h5>
+        <p class="proSize">Dimension: Big</p>
+        <p class="proPrice">EURO €<span>859.00</span></p>
+        <a href="https://fr.linkedin.com/"> Buy it now</a>
+      </div>
+      <div class="proFrom">Galaxie: Solar System </div>
+    </div>
+</div>
+</div>
+    </div>
+
+    <div class="selled">
+        <p class="title">Planète vendue</p>
+        <br>
+        <div class="proRow">
+            <div class="proBig">
+                <div class="proSelled">
+                    <div class="proImg"><img src="src/photo/mars.jpg"></div>
+                  <div class="proText">
+                    <h5>Mars</h5>
+                    <br>
+                    <p class="proPrice">Propriété:<span> Hélene Hao</span></p>
+                    <br>
+                    <p class="proFrom">Galaxie: Solar System </p>
+                </div>
+                  
+                </div>
+            </div>
+            <div class="proBig">
+                <div class="proSelled">
+                    <div class="proImg"><img src="src/photo/mars.jpg"></div>
+                  <div class="proText">
+                    <h5>Mars</h5>
+                    <br>
+                    <p class="proPrice">Propriété:<span> Hélene Hao</span></p>
+                    <br>
+                    <p class="proFrom">Galaxie: Solar System </p>
+                </div>
+                  
+                </div>
+            </div>
+            <div class="proBig">
+                <div class="proSelled">
+                    <div class="proImg"><img src="src/photo/mars.jpg"></div>
+                  <div class="proText">
+                    <h5>Mars</h5>
+                    <br>
+                    <p class="proPrice">Propriété:<span> Hélene Hao</span></p>
+                    <br>
+                    <p class="proFrom">Galaxie: Solar System </p>
+                </div>
+                  
+                </div>
+            </div>
+            <div class="proBig">
+                <div class="proSelled">
+                    <div class="proImg"><img src="src/photo/mars.jpg"></div>
+                  <div class="proText">
+                    <h5>Mars</h5>
+                    <br>
+                    <p class="proPrice">Propriété:<span> Hélene Hao</span></p>
+                    <br>
+                    <p class="proFrom">Galaxie: Solar System </p>
+                </div>
+                  
+                </div>
+            </div>
+  
+    </div>
+    </div>
+    <div class="information">
+        <p class="textNormal">information</p>
+    </div>
+</div>
 
     <div class="bottom">
         <ul class="bottomList">
@@ -54,6 +197,15 @@
 
             <li class="bottomItem">
                 <p class="text"> Nos engagements</p>
+                <br>
+                <p class="textSmall">Spéciale registrer x planet
+                    <br>(Space X) pense que toute personne sur 
+                    Terre doit pouvoir profiter de sa 
+                    propre étoile dans le ciel nocturne.
+                     C’est pourquoi nous vous donnons 
+                     la possibilité de nommer une étoile
+                      dans l’Online Star Register !
+                   </p>
             </li>
             <li class="bottomItem">
                 <p class="text">service client</p>
@@ -66,23 +218,23 @@
     </div>
 
     <div class="foot">
-        <a class="icon" href="www.facebook.com">
+        <a class="icon" href="https://www.facebook.com/" target = "_blank">
             <img src="src/photo/facebook.png" width="50px" height="50px">
         </a>
 
-        <a class="icon" href="www.facebook.com">
+        <a class="icon" href="https://fr.linkedin.com/" target = "_blank">
                 <img src="src/photo/lindink.png" width="50px" height="50px">
         </a>
 
-        <a class="icon" href="www.facebook.com">
+        <a class="icon" href="https://www.instagram.com/?hl=fr" target = "_blank">
                 <img src="src/photo/instragram.png" width="50px" height="50px">
         </a>
 
-        <a class="icon" href="www.facebook.com">
+        <a class="icon" href="https://twitter.com/?lang=fr" target = "_blank">
                     <img src="src/photo/twiter.png" width="50px" height="50px">
         </a>
 
-        <a class="icon" href="www.facebook.com">
+        <a class="icon" href="https://www.youtube.com/?gl=FR&hl=fr" target = "_blank">
                 <img src="src/photo/youtube.png" width="50px" height="50px">
         </a>
 
