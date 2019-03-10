@@ -176,7 +176,7 @@ body{
     margin-left:auto;
     margin-right:auto;
     width: 90%;
-    height: 1800px;
+    height: 1850px;
     background: rgba(0, 0, 0, 0.301);
     
 
@@ -200,13 +200,12 @@ video {
 
 .description 
 {   float: left;
-
-   
     border-radius: 20px;
     border: 1px solid white;
     margin-top:  40px;
     margin-left: 20px;
     width: 40%; 
+    height: 230px;
     padding: 20px;
    /* background-color: rgb(209, 209, 209);*/
 }
@@ -238,23 +237,88 @@ video {
     box-shadow: 3px 3px 15px #bfbfbf;
 }
 
+
 .product {
     
     width: 90%; 
     border-radius: 20px;
     border: 1px solid white;
-    height: 600px;
+    height: 500px;
  
     margin-top:  40px;
     margin-left: 20px;
     margin-right: 20px; 
    
     padding: 20px;
-   /* background-color: rgb(209, 209, 209);*/
+   background-color: rgba(255,255,255,0.5);
 }
 .product:hover {
     box-shadow: 3px 3px 15px #bfbfbf;
 }
+
+.title {
+    font-size: 1.5em;
+    color: Black;
+    text-align: center;
+}
+.proRow {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.proBig {
+	width:235px;
+	margin:15px 15px;
+	position:relative;
+}
+.pro {
+	border:1px solid #ccc;
+	height:360px;
+}
+.proSelled {
+	border:1px solid #ccc;
+	height:330px;
+}
+.proSelled:hover {
+    border:1px solid black;
+}
+.pro:hover {
+    border:1px solid black;
+}
+.proImg {
+	width:235px;
+	height:196px;
+	text-align:center;
+}
+.proImg img {
+	width:auto;
+	height:196px;
+}
+.proText {
+	margin:10px 10px;
+	height:120px;
+}
+h5 {
+	font-size:1rem;
+	margin:0 auto;
+	font-weight:initial;
+}
+.proSize {
+	font-size:0.6rem;
+	margin:3px auto;
+}
+.proPrice span {
+	font-size:1.2rem;
+	font-weight:initial;
+	font-style:italic;
+}
+.proFrom {
+	text-align:right;
+	margin-right:10px;
+}
+
 
 .selled
 { 
@@ -262,12 +326,12 @@ video {
     width: 90%; 
     border-radius: 20px;
     border: 1px solid white;
-    height: 300px;
+    height: 450px;
  
     margin-top:  40px;
     margin-left: 20px;
     margin-right: 20px; 
-   
+    background-color: rgba(255,255,255,0.5);
     padding: 20px;
     /*background-color: rgb(209, 209, 209);*/
 }
