@@ -1,3 +1,60 @@
+<?php
+function getAnnoceInformation($variable,$item) {
+    include("connexion.php");
+    $requet = $db->prepare ("select * FROM annonce");
+  
+    // Execute the SQL
+     $requet->execute(); 
+     $compte = $requet->fetchAll(PDO::FETCH_ASSOC);
+     if (count($compte)<$item)
+        {
+            return "nothing";
+        } 
+    else
+    { 
+     return $compte[$item][$variable]; 
+    }   
+}
+
+function showProduct(){
+    include("connexion.php");
+    $requet = $db->prepare ("select title FROM annonce");
+    // Execute the SQL
+     $requet->execute(); 
+     $compte = $requet->fetchAll(PDO::FETCH_ASSOC);
+    
+    
+     if (count($compte)>0) {
+        for ($i=0;$i<=count($compte)-1;$i++){
+            echo('
+            <div class="proBig">
+            <div class="pro">
+                <div class="proImg"><a href="https://fr.linkedin.com/>"><img src="src/photo/mars.jpg"></a></div>
+              <div class="proText">
+                <h5>');
+                echo(getAnnoceInformation('title',$i));
+                echo('</h5>
+                <p class="proSize">Dimension:');
+                echo(getAnnoceInformation('planetTaille',$i));
+                echo('</p>
+                <p class="proPrice">EURO €<span>');
+                echo(getAnnoceInformation('prix',$i));
+                echo('</span></p>
+                <a href="https://fr.linkedin.com/"> Buy it now</a>
+              </div>
+              <div class="proFrom">Galaxie: Solar System </div>
+            </div>
+        </div>');
+        }
+     }
+
+     else
+     {
+         echo("Désolé, nous n'avons pas de planète disponible pour le moment. Véillez nous consulter ultérieument");
+     }
+}
+?>
+
 <!--This is the principal page-->
 <!DOCTYPE html>
 <html>
@@ -42,7 +99,7 @@
             Galaxies range in size from dwarfs with 
             just a few hundred million (108) stars to 
             giants with one hundred trillion (1014) 
-            stars,[3] each orbiting its galaxy's 
+            stars,[3] each orbiting its galaxys 
             center of mass. </p>
     </div>
   
@@ -56,59 +113,9 @@
     <div class="product">
         <p class="title">Nos selections</p>
         <br>
-
         <div class="proRow">
-        <div class="proBig">
-            <div class="pro">
-                <div class="proImg"><a href="https://fr.linkedin.com/>"><img src="src/photo/mars.jpg"></a></div>
-              <div class="proText">
-                <h5>Mars</h5>
-                <p class="proSize">Dimension: Big</p>
-                <p class="proPrice">EURO €<span>859.00</span></p>
-                <a href="https://fr.linkedin.com/"> Buy it now</a>
-              </div>
-              <div class="proFrom">Galaxie: Solar System </div>
-            </div>
+        <?php showProduct();?>
     </div>
-    <div class="proBig">
-        <div class="pro">
-            <div class="proImg"><a href="https://fr.linkedin.com/>"><img src="src/photo/mars.jpg"></a></div>
-          <div class="proText">
-            <h5>Mars</h5>
-            <p class="proSize">Dimension: Big</p>
-            <p class="proPrice">EURO €<span>859.00</span></p>
-            <a href="https://fr.linkedin.com/"> Buy it now</a>
-          </div>
-          <div class="proFrom">Galaxie: Solar System </div>
-        </div>
-</div>
-
-<div class="proBig">
-    <div class="pro">
-        <div class="proImg"><a href="https://fr.linkedin.com/>"><img src="src/photo/mars.jpg"></a></div>
-      <div class="proText">
-        <h5>Mars</h5>
-        <p class="proSize">Dimension: Big</p>
-        <p class="proPrice">EURO €<span>859.00</span></p>
-        <a href="https://fr.linkedin.com/"> Buy it now</a>
-      </div>
-      <div class="proFrom">Galaxie: Solar System </div>
-    </div>
-</div>
-
-<div class="proBig">
-    <div class="pro">
-      <div class="proImg"><a href="https://fr.linkedin.com/>"><img src="src/photo/mars.jpg"></a></div>
-      <div class="proText">
-        <h5>Mars</h5>
-        <p class="proSize">Dimension: Big</p>
-        <p class="proPrice">EURO €<span>859.00</span></p>
-        <a href="https://fr.linkedin.com/"> Buy it now</a>
-      </div>
-      <div class="proFrom">Galaxie: Solar System </div>
-    </div>
-</div>
-</div>
     </div>
 
     <div class="selled">
@@ -132,7 +139,7 @@
                 <div class="proSelled">
                     <div class="proImg"><img src="src/photo/mars.jpg"></div>
                   <div class="proText">
-                    <h5>Mars</h5>
+                    <h5><?php echo("mars");?></h5>
                     <br>
                     <p class="proPrice">Propriété:<span> Hélene Hao</span></p>
                     <br>
