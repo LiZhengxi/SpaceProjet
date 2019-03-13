@@ -30,39 +30,81 @@
     </header>
 
     <div class="medium">
-    <P style="text-align:center; color: white; font-size: 1.5em;">Sign in to Space X</P>
-        <h2> Veuillez remplir ce formulaire </h2>
+    <P style="text-align:center; color: white; font-size: 1.5em;">Sign in to Space X</P><br><br>
+        
 
         <form method="post" action="login_page.php"> 
-            <p>
-                <label for="Titre" >Titre Annonce</label> : <input type="text" name="titre" id="titre"/><br/>
+            
+            <fieldset>
+                 <legend> Veuillez remplir ce formulaire : </legend>
+                 <p>Votre annonce : </p>
+            <br>
 
-                <label for="nom" >Nom Planet</label> : <input type="text" name="nom" id="nom"/><br/>
+                <label for="Titre" class="inline">Titre Annonce:</label>
+                <input type="text" name="titre" id="titre" required/>
+               
+               
+                <label for="nom" class="inline" >Nom Planet:</label> 
+                <input type="text" name="nom" id="nom" required/><br><br>
+              
+                <label for="couleur">Couleur Planet<br></label> 
+                <input type= "color" name="couleur" id="couleur"><br><br>
+              
+
+                <label for="taille" >Taille Planet<br></label> 
+                <input type="text" name="taille" id="taille" required/><br><br>
+
+                <label for="distance planet" >Distance planet<br></label> 
+                <input type="text" name="distance planet" id="distance planet"/><br><br>
+
+                <label for="composition planet" >Composition Planet<br></label> 
+                <input type="text" name="composition planet" id="composition planet"/><br>
                 
-                <label for="couleur">Couleur Planet</label> : <input type= "text" name="couleur" id="couleur"/><br/>
+                
+                <label for="composition">Dans quel matière est votre planète?<br></label><br>
+                    <select name="composition" id="composition">
+                        <option value="Fer">Fer</option>
+                        <option value="Mercure">Mercure</option>
+                        <option value="Eau">Eau</option>
+                        <option value="Plomb">Plomb</option>
+                        <option value="Granit">Granit</option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="cobalt">Cobalt</option>
+                        <option value="Palladium">Palladium</option>
+                    </select> 
+                    <br>
+                
+                
+                <label for="Habitant" >Habitant:<br></label> 
+                <input type="text" name="habitant" id="habitant"/><br><br>
 
-                <label for="taille" >Taille Planet</label> : <input type="text" name="taille" id="taille"/><br/>
+                <label for="proprietaire" >Propriétaire:<br></label> 
+                <input type="text" name="proprietaire" id="proprio"/><br><br>
 
-                <label for="distance planet" >Distance planet</label> : <input type="text" name="distance planet" id="distance planet"/><br/>
+                 
+                 Veuillez indiquer si votre planête est viable : 
+                <input type="radio"  name="viabilite" id="Viab"/> <label for="Oui" class="inline">oui</label>
+                <input type="radio"  name="viabilite" id="Viab"/> <label for="non" class="inline">non</label><br><br>
+            <fieldse   
+                <label for="prix" > Prix:<br></label> 
+                <input type="text" name="prix" id="prix"/><br>
 
-                <label for="composition planet" >Composition Planet</label> : <input type="text" name="composition planet" id="composition planet"/><br/>
+                <label for="photo" > Photo:<br></label> 
+                <input type="photo" name="photo" id="photo"/><br>
 
-                <label for="Habitant" >Habitant</label> : <input type="text" name="habitant" id="habitant"/><br/>
 
-                <label for="proprietaire" >Propriétaire</label> : <input type="text" name="proprietaire" id="proprio"/><br/>
+                <label for="descrip"> Description:<br></label> 
+                <Textarea name="descrip" id="descrip"> </Textarea><br>
 
-                <label for="viabilite" > Viabilité</label> : <input type="text" name="viabilite" id="Viab"/><br/>
 
-                <label for="prix" > Prix</label> : <input type="text" name="prix" id="prix"/><br/>
-
-                <label for="descrip"> description</label> : <Textarea name="descrip" id="descrip"/> <Textarea/><br/>
+                <input type="submit" value="Envoyer" />
  
+            </fieldset>
+
+            
 
 
-
-
-
-            </p>
+            
 
 
 

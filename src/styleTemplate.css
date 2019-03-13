@@ -189,7 +189,55 @@ body{
     border-radius: 20px;
     margin-left:auto;
     margin-right:auto;
-    background-color: gray;
+    background-color:rgba(255, 255, 255, 0.5);
     width: 90%;
-    height: 800px;
+    height: 800px; 
+    
 }
+
+
+fieldset {
+    padding:0 20px 20px 20px;
+    margin-bottom:10px;
+    border:1px solid #DF3F3F;
+    background:rgba(57, 78, 0, 0.322);
+    border-radius: 20px;
+    width: 300px;
+}
+
+legend {
+font-weight: bold;
+font-size: 80%;
+color:red;
+font-family: Verdana, sans-serif;
+
+}
+label {
+    
+    margin-top:0px;
+    
+
+    display:block;
+
+
+
+}
+
+label.inline {
+    display:inline;
+    margin-right:50px;
+}
+
+input[type=radio] {
+    background-color:transparent;
+    border:none;
+    width:10px;
+}
+   input[type=submit], input[type=reset] {
+    width:100px;
+    margin-left:5px;
+    box-shadow:1px 1px 1px #D83F3D;
+    cursor:pointer;
+}
+
+
