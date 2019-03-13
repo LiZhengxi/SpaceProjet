@@ -1,10 +1,13 @@
 <?php
 function check_login(){
     include("connexion.php"); 
-
+    session_start(); // initialize session
+    unset($_SESSION['name']);
     // Take the form value
      $email = $_POST['email'];
      $password=$_POST['pass'];
+
+     
     // Take the SQL sentence
      $requet = $db->prepare ("select adresse_mail, password FROM compte");
     // Execute the SQL
@@ -18,7 +21,7 @@ function check_login(){
          {  $nonExiste =1;
              if($password == $compte[$i]['password'])
              {  
-                session_start(); // initialize session
+               
                 $_SESSION['name'] =$email; //enregistrer session info
                 return 1;
              }
