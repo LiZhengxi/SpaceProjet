@@ -14,11 +14,20 @@
     <header class="top">
         
         <p>
-            <a  href="contact.html" class="white">Contact</a>
+        <?php
+        session_start();
+        if(empty($_SESSION['name'])) { $_SESSION['name'] = '';}
+            if ($_SESSION['name']==Null){
+           echo('<a  href="contact.html" class="white">Contact</a>
             |
             <a href="login_page.php" class="white"> Sign in</a>
             |
-            <a href="inscription.php" class="white"> Sign up</a>
+            <a href="inscription.php" class="white"> Sign up</a>');
+            }
+            else {
+                echo ('<a  href="login_page.php" class="white">'.$_SESSION['name'].'</a>');
+            } 
+        ?>
         </p>
         <ul>
             <li><a href="login_page.php">PAGE</a></li>
