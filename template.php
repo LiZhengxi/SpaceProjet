@@ -30,7 +30,21 @@
     </header>
 
     <div class="medium">
-       
+    <form class="login" action="login_success.php" method="post"> 
+            <label for="email">Email</label>
+            <input class="input" name="email" type="text" placeholder="Email">
+            <br>
+            <label for="user">Name</label>
+            <input class="input" name="user" type="text" placeholder="Your name">
+            <br>
+            <label for="pass" >Password</label>
+            <input class="input" name = "pass" type="password" placeholder="Password">
+            <br>
+            <label for="pass" >Password</label>
+            <input class="input" name = "pass1" type="password" placeholder="Password">
+            <br>
+            <input class="loginButton" type="submit" value="Log in">
+        </form>
        
     </div>
 
