@@ -33,35 +33,48 @@
     <P style="text-align:center; color: white; font-size: 1.5em;">Sign in to Space X</P><br><br>
         
 
-        <form method="post" action="login_page.php"> 
+        <form method="post" class="fieldset" action="login_page.php" enctype=multipart/form-data"> 
             
-            <fieldset>
-                 <legend> Veuillez remplir ce formulaire : </legend>
-                 <p>Votre annonce : </p>
-            <br>
+                
+                 
+                
+            
+                <h3> Veuillez remplir ce formulaire : </h3>
+                <p>Votre annonce : </p>
+                <br>
 
-                <label for="Titre" class="inline">Titre Annonce:</label>
-                <input type="text" name="titre" id="titre" required/>
+                <label for="Titre" >Titre Annonce:</label>
+                <input type="text" name="titre" id="titre" required autofocus/>
+                <br><br>
                
                
-                <label for="nom" class="inline" >Nom Planet:</label> 
-                <input type="text" name="nom" id="nom" required/><br><br>
+                <label for="nom"  >Nom Planet:</label> 
+                <input type="text" name="nom" id="nom" required/>
+                <br><br>
               
                 <label for="couleur">Couleur Planet<br></label> 
-                <input type= "color" name="couleur" id="couleur"><br><br>
+                <input type= "color" name="couleur" id="couleur">
+                <br><br>
               
 
                 <label for="taille" >Taille Planet<br></label> 
-                <input type="text" name="taille" id="taille" required/><br><br>
+                <input type="text" name="taille" id="taille" required/>
+                <br><br>
 
                 <label for="distance planet" >Distance planet<br></label> 
-                <input type="text" name="distance planet" id="distance planet"/><br><br>
+                <input type="text" name="distance planet" id="distance planet" placeholder="en KM"/>
+                <br><br>
 
                 <label for="composition planet" >Composition Planet<br></label> 
-                <input type="text" name="composition planet" id="composition planet"/><br>
+                <input type="text" name="composition planet" id="composition planet"/>
+                <br><br>
+
+                <label for= "image"> Votre image<br></label>
+                <input type="file" name="image" id="image"/>
+                <br><br>
                 
                 
-                <label for="composition">Dans quel matière est votre planète?<br></label><br>
+                <label for="composition">Dans quel matière est votre planète?<br></label>
                     <select name="composition" id="composition">
                         <option value="Fer">Fer</option>
                         <option value="Mercure">Mercure</option>
@@ -72,34 +85,40 @@
                         <option value="cobalt">Cobalt</option>
                         <option value="Palladium">Palladium</option>
                     </select> 
-                    <br>
+                    <br><br>
                 
                 
                 <label for="Habitant" >Habitant:<br></label> 
-                <input type="text" name="habitant" id="habitant"/><br><br>
+                <input type="text" name="habitant" id="habitant"/>
+                <br><br>
 
                 <label for="proprietaire" >Propriétaire:<br></label> 
-                <input type="text" name="proprietaire" id="proprio"/><br><br>
+                <input type="text" name="proprietaire" id="proprio"/>
+                <br><br>
 
+                
                  
                  Veuillez indiquer si votre planête est viable : 
-                <input type="radio"  name="viabilite" id="Viab"/> <label for="Oui" class="inline">oui</label>
-                <input type="radio"  name="viabilite" id="Viab"/> <label for="non" class="inline">non</label><br><br>
-            <fieldse   
+                 <label for="Oui" ></label>
+                <input type="radio"  name="viabilite" id="Viab" class="case"/>oui <input type="radio"  name="viabilite" id="Viab" class="case"/>non
+                
+                <br><br>
+           
+           
+             
                 <label for="prix" > Prix:<br></label> 
-                <input type="text" name="prix" id="prix"/><br>
+                <input type="text" name="prix" id="prix" placeholder="prix en €"/>
+                <br><br>
 
-                <label for="photo" > Photo:<br></label> 
-                <input type="photo" name="photo" id="photo"/><br>
-
-
+                
                 <label for="descrip"> Description:<br></label> 
-                <Textarea name="descrip" id="descrip"> </Textarea><br>
+                <Textarea name="descrip" id="descrip" rows="10" cols="50"> </Textarea>
+                <br>
 
 
                 <input type="submit" value="Envoyer" />
- 
-            </fieldset>
+            
+            
 
             
 
